@@ -1,0 +1,5 @@
+module CarDetection (outer, inner, enter, exit)
+	input logic outer, inner;
+	output logic enter, exit;
+	
+	enum {in, out, invalid } ps, ns;

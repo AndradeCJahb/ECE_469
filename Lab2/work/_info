@@ -1,0 +1,382 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Chris Andrade/Desktop/2024SP/ECE_371/lab1
+valu
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1714802527
+!i10b 1
+!s100 m[z5o7gLTT[YJ3`?1>3e62
+II9j24MEWomh@X0S:>R<7?3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 alu_sv_unit
+S1
+Z5 dC:/Users/andra/OneDrive/Desktop/2024SPR/ECE_469/Lab2
+Z6 w1714800660
+Z7 8alu.sv
+Z8 Falu.sv
+L0 10
+Z9 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z10 !s108 1714802527.000000
+Z11 !s107 alu.sv|
+Z12 !s90 -reportprogress|300|alu.sv|
+!i113 1
+Z13 tCvgOpt 0
+valu_testbench
+R1
+R2
+!i10b 1
+!s100 QccacSR:mo;T2go8lc1H[2
+ICF4kX;W0[7RLP]@WEJ_J;0
+R3
+R4
+S1
+R5
+R6
+R7
+R8
+L0 55
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+varm
+R1
+R2
+!i10b 1
+!s100 R:20`f:7Dk88@_P8Jm5_d1
+I4DRWg9;D3zAeFNSO8i8oA0
+R3
+!s105 arm_sv_unit
+S1
+R5
+R6
+8arm.sv
+Farm.sv
+L0 18
+R9
+r1
+!s85 0
+31
+R10
+!s107 arm.sv|
+!s90 -reportprogress|300|arm.sv|
+!i113 1
+R13
+vCarDetection
+R1
+Z14 !s110 1712129954
+!i10b 1
+!s100 B=CeJkGbCO=zj4F<Ci@>71
+I`08[a3d9gTRJN>nMo9a170
+R3
+!s105 CarDetection_sv_unit
+S1
+R0
+w1712125458
+8CarDetection.sv
+FCarDetection.sv
+L0 1
+R9
+r1
+!s85 0
+31
+Z15 !s108 1712129954.000000
+!s107 CarDetection.sv|
+!s90 -reportprogress|300|CarDetection.sv|
+!i113 1
+R13
+n@car@detection
+vCarDetection_tb
+R1
+R14
+!i10b 1
+!s100 Mjhbl4GXQzZF;oHV9HJ>C3
+IE>[lg8>;emniDdK<ZX4Mj0
+R3
+!s105 CarDetection_tb_sv_unit
+S1
+R0
+w1712125061
+8CarDetection_tb.sv
+FCarDetection_tb.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R15
+!s107 CarDetection_tb.sv|
+!s90 -reportprogress|300|CarDetection_tb.sv|
+!i113 1
+R13
+n@car@detection_tb
+vclock_divider
+R1
+R14
+!i10b 1
+!s100 ;;cR1iFKl;SYA5AjF[83c3
+IllTgeCN]FbToQ1Dl_G@U[1
+R3
+!s105 clock_divider_sv_unit
+S1
+R0
+w1711523119
+8clock_divider.sv
+Fclock_divider.sv
+L0 3
+R9
+r1
+!s85 0
+31
+R15
+!s107 clock_divider.sv|
+!s90 -reportprogress|300|clock_divider.sv|
+!i113 1
+R13
+vDE1_SoC
+R1
+R14
+!i10b 1
+!s100 n15TAlUDgB<=c8DB;<9DL0
+IW37J@9ZV1ZY0ihP0^;o1d0
+R3
+!s105 DE1_SoC_sv_unit
+S1
+R0
+w1712125339
+8DE1_SoC.sv
+FDE1_SoC.sv
+L0 3
+R9
+r1
+!s85 0
+31
+R15
+!s107 DE1_SoC.sv|
+!s90 -reportprogress|300|DE1_SoC.sv|
+!i113 1
+R13
+n@d@e1_@so@c
+vDE1_SoC_tb
+R1
+R14
+!i10b 1
+!s100 JmIA7flL_kemlz^:b4ao10
+I3BBSPCLX`[BnBPVb9L30o3
+R3
+!s105 DE1_SoC_tb_sv_unit
+S1
+R0
+w1711523103
+8DE1_SoC_tb.sv
+FDE1_SoC_tb.sv
+L0 2
+R9
+r1
+!s85 0
+31
+R15
+!s107 DE1_SoC_tb.sv|
+!s90 -reportprogress|300|DE1_SoC_tb.sv|
+!i113 1
+R13
+n@d@e1_@so@c_tb
+vdmem
+R1
+R2
+!i10b 1
+!s100 Oh:]]J_E8maKR390g`9n92
+ILD@Fd584Qhmj_93WHi:=I2
+R3
+!s105 dmem_sv_unit
+S1
+R5
+w1712770618
+8dmem.sv
+Fdmem.sv
+L0 13
+R9
+r1
+!s85 0
+31
+R10
+!s107 dmem.sv|
+!s90 -reportprogress|300|dmem.sv|
+!i113 1
+R13
+vimem
+R1
+R2
+!i10b 1
+!s100 [28JEdGYc^2]KnWmGd?l13
+IW__jI;_FC=DzGSj_JISFP0
+R3
+!s105 imem_sv_unit
+S1
+R5
+Z16 w1714801017
+8imem.sv
+Fimem.sv
+L0 15
+R9
+r1
+!s85 0
+31
+R10
+!s107 imem.sv|
+!s90 -reportprogress|300|imem.sv|
+!i113 1
+R13
+voccupancy
+R1
+R14
+!i10b 1
+!s100 U8dGnlICk2ceZlBDfNXaU0
+I;AeSHcfPQbjTX3];<WVfo0
+R3
+!s105 occupancy_sv_unit
+S1
+R0
+w1712129951
+8occupancy.sv
+Foccupancy.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R15
+!s107 occupancy.sv|
+!s90 -reportprogress|300|occupancy.sv|
+!i113 1
+R13
+voccupancy_tb
+R1
+R14
+!i10b 1
+!s100 XL=iU^9WUUWmN`1LNb5_h2
+IGTz^1ofHN:n4[D?Th7QJ_1
+R3
+!s105 occupancy_tb_sv_unit
+S1
+R0
+w1712129825
+8occupancy_tb.sv
+Foccupancy_tb.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R15
+!s107 occupancy_tb.sv|
+!s90 -reportprogress|300|occupancy_tb.sv|
+!i113 1
+R13
+vreg_file
+R1
+R2
+!i10b 1
+!s100 1Jj1ogi7CnB657faHS8P53
+IRWnHYMkF?Be;X:Uz3h^]V1
+R3
+Z17 !s105 reg_file_sv_unit
+S1
+R5
+Z18 w1714800662
+Z19 8reg_file.sv
+Z20 Freg_file.sv
+L0 11
+R9
+r1
+!s85 0
+31
+R10
+Z21 !s107 reg_file.sv|
+Z22 !s90 -reportprogress|300|reg_file.sv|
+!i113 1
+R13
+vreg_file_testbench
+R1
+R2
+!i10b 1
+!s100 la`5U_VeKE@5B2lmI3leb0
+IJ5S82fbFYbEF49^[[X8c50
+R3
+R17
+S1
+R5
+R18
+R19
+R20
+L0 36
+R9
+r1
+!s85 0
+31
+R10
+R21
+R22
+!i113 1
+R13
+vtestbench
+R1
+R2
+!i10b 1
+!s100 m?_2lnUX^H9LlcLDXc;580
+I2KH;jUOV1:C2m47ELi_0R2
+R3
+!s105 testbench_sv_unit
+S1
+R5
+R16
+8testbench.sv
+Ftestbench.sv
+L0 5
+R9
+r1
+!s85 0
+31
+R10
+!s107 testbench.sv|
+!s90 -reportprogress|300|testbench.sv|
+!i113 1
+R13
+vtop
+R1
+R2
+!i10b 1
+!s100 6X6T21d]QNM;H;KA;UXh62
+IZm3E8RSVLhTSTIekk]7aW0
+R3
+!s105 top_sv_unit
+S1
+R5
+w1714800691
+8top.sv
+Ftop.sv
+L0 9
+R9
+r1
+!s85 0
+31
+R10
+!s107 top.sv|
+!s90 -reportprogress|300|top.sv|
+!i113 1
+R13

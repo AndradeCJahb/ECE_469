@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/andra/OneDrive/Desktop/EE 271/Lab1
+valu
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1712459523
+!i10b 1
+!s100 m[z5o7gLTT[YJ3`?1>3e62
+I33FBKclk<=OMG:1iD26jn3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 alu_sv_unit
+S1
+Z4 dC:/Users/andra/OneDrive/Desktop/ECE_469/labs/lab1a
+Z5 w1712373052
+Z6 8./alu.sv
+Z7 F./alu.sv
+L0 10
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1712459523.000000
+Z10 !s107 ./alu.sv|
+Z11 !s90 -reportprogress|300|./alu.sv|
+!i113 1
+Z12 tCvgOpt 0
+valu_testbench
+R0
+R1
+!i10b 1
+!s100 QccacSR:mo;T2go8lc1H[2
+Im:IEPIB_j@nKegQe9JG@I2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 55
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vmux2_1
+R0
+Z13 !s110 1705730353
+!i10b 1
+!s100 D8f^KdU48cL4Rb1`ZGVGU1
+I=Tj5VT>:3DVMWDcLmbI072
+R2
+Z14 !s105 mux2_1_sv_unit
+S1
+Z15 dC:/Users/andra/OneDrive/Desktop/EE 271/Lab1a
+Z16 w1705075126
+Z17 8./mux2_1.sv
+Z18 F./mux2_1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z19 !s108 1705730353.000000
+Z20 !s107 ./mux2_1.sv|
+Z21 !s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+R12
+vmux2_1_testbench
+R0
+R13
+!i10b 1
+!s100 @1nNfmbWY]YgLb5fX>oIW2
+I4cabkJ_QUT?F6Wi?74Pmo0
+R2
+R14
+S1
+R15
+R16
+R17
+R18
+L0 7
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R12
+vmux4_1
+R0
+R13
+!i10b 1
+!s100 E7R1Cg6SkhaPO]9<9MDj:0
+I11V?a:nHG07?Y623?jN2j0
+R2
+Z22 !s105 mux4_1_sv_unit
+S1
+R15
+Z23 w1705077378
+Z24 8./mux4_1.sv
+Z25 F./mux4_1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R19
+Z26 !s107 ./mux4_1.sv|
+Z27 !s90 -reportprogress|300|./mux4_1.sv|
+!i113 1
+R12
+vmux4_1_testbench
+R0
+R13
+!i10b 1
+!s100 S=Q4M<RQYC<Do0WeMmd=82
+Im><1g^G6OR^c>_U_Z;ALX3
+R2
+R22
+S1
+R15
+R23
+R24
+R25
+L0 12
+R8
+r1
+!s85 0
+31
+R19
+R26
+R27
+!i113 1
+R12
+vreg_file
+R0
+Z28 !s110 1712373908
+!i10b 1
+!s100 @WR1M6P;]H<=Eh`<oDbBH1
+IO8EeEG7MkX^SYS<:mMW651
+R2
+Z29 !s105 reg_file_sv_unit
+S1
+R4
+Z30 w1712371205
+Z31 8./reg_file.sv
+Z32 F./reg_file.sv
+L0 11
+R8
+r1
+!s85 0
+31
+Z33 !s108 1712373908.000000
+Z34 !s107 ./reg_file.sv|
+Z35 !s90 -reportprogress|300|./reg_file.sv|
+!i113 1
+R12
+vreg_file_testbench
+R0
+R28
+!i10b 1
+!s100 gELbnle_HC=L_Ujlg3=P:0
+IO:kheZmK]6@SzoZbA39X52
+R2
+R29
+S1
+R4
+R30
+R31
+R32
+L0 37
+R8
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R12

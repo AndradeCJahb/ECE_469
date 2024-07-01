@@ -1,0 +1,26 @@
+module simple (clk, reset, w, out);
+input logic clk, reset, w;
+output logic out;
+// State variables
+enum { none, got_one, got_two } ps, ns;
+// Next State logic
+always_comb begin
+case (ps)
+none: if (w) ns = got_one;
+else ns = none;
+got_one: if (w) ns = got_two;
+else ns = none;
+got_two: if (w) ns = got_two;
+else ns = none;
+endcase
+end
+// Output logic - could also be another always_comb block.
+assign out = (ps == got_two);
+// DFFs
+always_ff @(posedge clk) begin
+if (reset)
+ps <= none;
+else
+ps <= ns;
+end
+endmodule

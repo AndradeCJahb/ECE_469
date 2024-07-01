@@ -1,0 +1,627 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:38:57 on May 03,2024
+# vlog -reportprogress 300 top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:38:57 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:38:58 on May 03,2024
+# vlog -reportprogress 300 arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 23:38:58 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:38:58 on May 03,2024
+# vlog -reportprogress 300 dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 23:38:58 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:38:58 on May 03,2024
+# vlog -reportprogress 300 imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 23:38:58 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:38:58 on May 03,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:38:58 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:38:58 on May 03,2024
+# vlog -reportprogress 300 alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 23:38:58 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:38:58 on May 03,2024
+# vlog -reportprogress 300 reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 23:38:58 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work testbench 
+# Start time: 23:38:58 on May 03,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.arm
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Task 1 Failed
+# ** Note: $stop    : testbench.sv(38)
+#    Time: 5200 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at testbench.sv line 38
+add wave -position end  sim:/testbench/cpu/processor/ForwardAE
+add wave -position end  sim:/testbench/cpu/processor/ForwardBE
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/andra/OneDrive/Desktop/2024SPR/ECE_469/Lab3/testbench_1_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:10 on May 03,2024
+# vlog -reportprogress 300 top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:47:10 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:10 on May 03,2024
+# vlog -reportprogress 300 arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 23:47:10 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:10 on May 03,2024
+# vlog -reportprogress 300 dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 23:47:10 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:10 on May 03,2024
+# vlog -reportprogress 300 imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 23:47:10 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:10 on May 03,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:47:10 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:10 on May 03,2024
+# vlog -reportprogress 300 alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 23:47:10 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:10 on May 03,2024
+# vlog -reportprogress 300 reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 23:47:10 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:47:11 on May 03,2024, Elapsed time: 0:08:13
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work testbench 
+# Start time: 23:47:11 on May 03,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.arm
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Task 1 Failed
+# ** Note: $stop    : testbench.sv(38)
+#    Time: 5200 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at testbench.sv line 38
+add wave -position end  sim:/testbench/cpu/processor/u_alu/a
+add wave -position end  sim:/testbench/cpu/processor/u_alu/b
+# Paste insertion failed: 1): (vish-4014) No objects found matching '1)'.
+# Paste insertion failed: alu.sv: (vish-4014) No objects found matching 'alu.sv'.
+# Paste insertion failed: 2): (vish-4014) No objects found matching '2)'.
+# Paste insertion failed: reg_file.sv: (vish-4014) No objects found matching 'reg_file.sv'.
+add wave -position end  sim:/testbench/cpu/processor/u_alu/a
+add wave -position end  sim:/testbench/cpu/processor/u_alu/b
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/andra/OneDrive/Desktop/2024SPR/ECE_469/Lab3/testbench_1_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:49:32 on May 03,2024
+# vlog -reportprogress 300 top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:49:32 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:49:32 on May 03,2024
+# vlog -reportprogress 300 arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 23:49:32 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:49:32 on May 03,2024
+# vlog -reportprogress 300 dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 23:49:32 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:49:32 on May 03,2024
+# vlog -reportprogress 300 imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 23:49:32 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:49:32 on May 03,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:49:32 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:49:32 on May 03,2024
+# vlog -reportprogress 300 alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 23:49:32 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:49:32 on May 03,2024
+# vlog -reportprogress 300 reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 23:49:32 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:49:33 on May 03,2024, Elapsed time: 0:02:22
+# Errors: 4, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work testbench 
+# Start time: 23:49:33 on May 03,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.arm
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Task 1 Failed
+# ** Note: $stop    : testbench.sv(38)
+#    Time: 5200 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at testbench.sv line 38
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+add wave -position end  sim:/testbench/cpu/processor/ldrstallD
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/andra/OneDrive/Desktop/2024SPR/ECE_469/Lab3/testbench_1_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:41 on May 04,2024
+# vlog -reportprogress 300 top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:13:42 on May 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:42 on May 04,2024
+# vlog -reportprogress 300 arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 00:13:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:42 on May 04,2024
+# vlog -reportprogress 300 dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 00:13:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:42 on May 04,2024
+# vlog -reportprogress 300 imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 00:13:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:42 on May 04,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:13:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:42 on May 04,2024
+# vlog -reportprogress 300 alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 00:13:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:42 on May 04,2024
+# vlog -reportprogress 300 reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 00:13:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:13:43 on May 04,2024, Elapsed time: 0:24:10
+# Errors: 1, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work testbench 
+# Start time: 00:13:43 on May 04,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.arm
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Task 1 Failed
+# ** Note: $stop    : testbench.sv(38)
+#    Time: 5200 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at testbench.sv line 38
+add wave -position end  sim:/testbench/cpu/processor/FlushD
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/andra/OneDrive/Desktop/2024SPR/ECE_469/Lab3/testbench_1_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:42 on May 04,2024
+# vlog -reportprogress 300 top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:23:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:42 on May 04,2024
+# vlog -reportprogress 300 arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 00:23:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:42 on May 04,2024
+# vlog -reportprogress 300 dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 00:23:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:42 on May 04,2024
+# vlog -reportprogress 300 imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 00:23:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:42 on May 04,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:23:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:42 on May 04,2024
+# vlog -reportprogress 300 alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 00:23:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:23:42 on May 04,2024
+# vlog -reportprogress 300 reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 00:23:42 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:23:43 on May 04,2024, Elapsed time: 0:10:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work testbench 
+# Start time: 00:23:43 on May 04,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.arm
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Task 1 Failed
+# ** Note: $stop    : testbench.sv(38)
+#    Time: 5200 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at testbench.sv line 38
+add wave -position end  sim:/testbench/cpu/processor/InstrD
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/andra/OneDrive/Desktop/2024SPR/ECE_469/Lab3/testbench_1_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:26:47 on May 04,2024
+# vlog -reportprogress 300 top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:26:47 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:26:47 on May 04,2024
+# vlog -reportprogress 300 arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 00:26:47 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:26:47 on May 04,2024
+# vlog -reportprogress 300 dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 00:26:47 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:26:47 on May 04,2024
+# vlog -reportprogress 300 imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 00:26:47 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:26:47 on May 04,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:26:47 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:26:47 on May 04,2024
+# vlog -reportprogress 300 alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 00:26:47 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:26:47 on May 04,2024
+# vlog -reportprogress 300 reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 00:26:47 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:26:49 on May 04,2024, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work testbench 
+# Start time: 00:26:49 on May 04,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.arm
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Task 1 Failed
+# ** Note: $stop    : testbench.sv(38)
+#    Time: 5200 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at testbench.sv line 38
+add wave -position end  sim:/testbench/cpu/processor/BranchTakenE
+add wave -position end  sim:/testbench/cpu/processor/PCWrPendingF
+add wave -position end  sim:/testbench/cpu/processor/PCSrcW
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/andra/OneDrive/Desktop/2024SPR/ECE_469/Lab3/testbench_1_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:37:07 on May 04,2024
+# vlog -reportprogress 300 top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:37:07 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:37:07 on May 04,2024
+# vlog -reportprogress 300 arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 00:37:07 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:37:07 on May 04,2024
+# vlog -reportprogress 300 dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 00:37:07 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:37:07 on May 04,2024
+# vlog -reportprogress 300 imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 00:37:08 on May 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:37:08 on May 04,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:37:08 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:37:08 on May 04,2024
+# vlog -reportprogress 300 alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 00:37:08 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:37:08 on May 04,2024
+# vlog -reportprogress 300 reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 00:37:08 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:37:09 on May 04,2024, Elapsed time: 0:10:20
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work testbench 
+# Start time: 00:37:09 on May 04,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.arm
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Task 1 Failed
+# ** Note: $stop    : testbench.sv(38)
+#    Time: 5200 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at testbench.sv line 38
+# End time: 01:28:31 on May 04,2024, Elapsed time: 0:51:22
+# Errors: 0, Warnings: 0

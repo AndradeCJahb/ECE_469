@@ -1,0 +1,32 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+ do r
+# Cannot open macro file: r
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:12:03 on Apr 06,2024
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 20:12:03 on Apr 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work alu_testbench 
+# Start time: 20:12:04 on Apr 06,2024
+# Loading sv_std.std
+# Loading work.alu_testbench
+# Loading work.alu
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: andra  Hostname: JAHB  ProcessID: 13948
+#           Attempting to use alternate WLF file "./wlftqg3rg5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqg3rg5
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module alu_testbench at ./alu.sv line 71
+# End time: 20:12:44 on Apr 06,2024, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 2

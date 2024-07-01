@@ -1,0 +1,1 @@
+Warning (10230): Verilog HDL assignment warning at alu.sv(33): truncated value with size 32 to match size of target (1) File: C:/Users/Chris Andrade/Desktop/2024SP/ECE_469/Lab2/alu.sv Line: 33
